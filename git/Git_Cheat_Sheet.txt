@@ -22,3 +22,7 @@ git log
 The basic Git syntax is:
 program | action | destination.
 
+
+/Users/brentcook/worldbanc/public/products
+
+Mv tbills.txt /Users/brentcook/worldbanc/public/products/tbills.txt
