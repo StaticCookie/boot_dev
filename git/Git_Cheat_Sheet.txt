@@ -50,6 +50,6 @@ Rebase Git Branch
 git rebase {banch}
 git rebase main                 (to rebase from main)
 
-/Users/brentcook/worldbanc/public/products
-
-Mv tbills.txt /Users/brentcook/worldbanc/public/products/tbills.txt
+Git Reset 
+(Soft)
+git reset --soft COMMITHASH
