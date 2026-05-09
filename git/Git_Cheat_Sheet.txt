@@ -22,6 +22,30 @@ git log
 The basic Git syntax is:
 program | action | destination.
 
+Create a new Branch: 
+git branch {branch_name}        (Creates the branch)
+git switch -c {branch_name}     (Creates and switches to the branch)
+
+Show the Branch you are on:
+git branch
+
+Show all branches:
+git log --oneline --graph --all
+git log --oneline --decorate --graph --parents
+
+Switch branches:
+git switch {branch}              (Recommended) 
+git checkout {branch}            (Old method)
+
+Merge Branches: (from Main)
+git merge {branch}
+
+Delete Branch: 
+git branch -d {branch}
+
+Rename Branch: 
+git branch -m oldname newname
+
 
 /Users/brentcook/worldbanc/public/products
 
