@@ -46,6 +46,9 @@ git branch -d {branch}
 Rename Branch: 
 git branch -m oldname newname
 
+Rebase Git Branch
+git rebase {banch}
+git rebase main                 (to rebase from main)
 
 /Users/brentcook/worldbanc/public/products
 
