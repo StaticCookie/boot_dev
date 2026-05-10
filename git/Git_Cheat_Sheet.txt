@@ -18,6 +18,7 @@ git commit -m "A message describing what you have done to make this snapshot dif
 Commands related to checking status or log history
 git status
 git log
+git log [<remote>/<branch>] (Show the log of a remote branch).
 
 The basic Git syntax is:
 program | action | destination.
@@ -53,3 +54,12 @@ git rebase main                 (to rebase from main)
 Git Reset 
 (Soft)
 git reset --soft COMMITHASH
+
+Git merge 
+git remote add <name> <uri>
+git merge [<remote>/<branch>]
+
+Git fetch 
+find .git/objects
+git fetch <remote> <branch>
+
