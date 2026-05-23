@@ -36,8 +36,5 @@ class DeckOfCards:
         if self.__cards:
             return self.__cards.pop()
 
-
-    # don't touch below this line
-
     def __str__(self):
         return f"The deck has {len(self.__cards)} cards"
