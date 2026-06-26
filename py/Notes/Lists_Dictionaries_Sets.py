@@ -82,7 +82,7 @@ combined_list = list_1 + list_2 + list_3
 ## List Operations - Contains
 return weapon in top_weapons #Returns True if "weapon" is within "top_weapons" (False if not True)
 return weapon not in top_weapons #Returns False  if "weapon" is within "top_weapons" (True if not False)
-## Tuples (Static Lists within lists)
+## Functional programming (Static Lists within lists)
 heroes = [
     ("Glorfindel", 2093,True), #The Tuple is containted within round brackets within the square brackets
     ("Gandalf",1054,False),
